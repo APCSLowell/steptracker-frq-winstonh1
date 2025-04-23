@@ -12,6 +12,7 @@ public class StepTracker{
   mydays++;
   if(x >= myMin){
    activedays++;
+  }
  }
  public int activeDays(){
   return activedays;
@@ -20,6 +21,6 @@ public class StepTracker{
    if(mydays == 0){
     return 0;
    }
-  return (double) totalsteps/mydays;
-   
-} 
+  return (double) totalsteps/mydays;  
+ } 
+}
